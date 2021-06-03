@@ -1,0 +1,148 @@
+2020-10-20 22:28:41,618 - autoReconnect - INFO - 发现自助排障工具窗口, 窗口句柄:919720
+2020-10-20 22:28:41,618 - autoReconnect - INFO - 已经向排障工具发送结束进程指令 True
+2020-10-20 22:28:42,621 - autoReconnect - INFO - Stop fixTools Success
+2020-10-20 22:28:43,958 - autoReconnect - INFO - 客户端遇到错误,即将重试
+2020-10-20 22:28:44,038 - autoReconnect - INFO - 找到重试按钮
+2020-10-20 22:28:44,088 - autoReconnect - INFO - 鼠标双击成功,pot79,408
+2020-10-20 22:29:04,382 - autoReconnect - INFO - 客户端遇到错误,即将重试
+2020-10-20 22:29:04,460 - autoReconnect - INFO - 找到重试按钮
+2020-10-20 22:29:04,522 - autoReconnect - INFO - 鼠标双击成功,pot79,408
+2020-10-20 22:29:06,741 - autoReconnect - INFO - 点击重试成功
+2020-10-20 22:29:22,580 - autoReconnect - INFO - 客户端遇到错误,即将重试
+2020-10-20 22:29:22,655 - autoReconnect - INFO - 找到重试按钮
+2020-10-20 22:29:22,718 - autoReconnect - INFO - 鼠标双击成功,pot79,408
+2020-10-20 22:29:25,002 - autoReconnect - INFO - 点击重试成功
+2020-10-20 22:29:40,948 - autoReconnect - INFO - 客户端遇到错误,即将重试
+2020-10-20 22:29:41,041 - autoReconnect - INFO - 找到重试按钮
+2020-10-20 22:29:41,104 - autoReconnect - INFO - 鼠标双击成功,pot79,408
+2020-10-20 22:29:43,742 - autoReconnect - INFO - 点击重试成功
+2020-10-20 22:29:59,503 - autoReconnect - INFO - 客户端遇到错误,即将重试
+2020-10-20 22:29:59,597 - autoReconnect - INFO - 找到重试按钮
+2020-10-20 22:29:59,659 - autoReconnect - INFO - 鼠标双击成功,pot79,408
+2020-10-20 22:30:00,112 - autoReconnect - ERROR - 客户端错误次数过多,正在尝试重置客户端及服务
+2020-10-20 22:30:00,627 - autoReconnect - ERROR - Traceback (most recent call last):
+  File "autoReconnect.py", line 212, in main
+    if(not cutScreenShotFitPrgm()):
+  File "autoReconnect.py", line 564, in cutScreenShotFitPrgm
+    if(pot[0]<0 or pot[1]<0):
+TypeError: 'NoneType' object is not subscriptable
+
+2020-10-20 22:30:00,627 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-10-20 22:30:00,627 - autoReconnect - ERROR - 校园客户端程序没有启动, 正在尝试重启客户端
+2020-10-20 22:30:03,747 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-10-20 22:30:04,778 - autoReconnect - INFO - 点击重试成功
+2020-10-20 22:30:13,827 - autoReconnect - INFO - 发现自助排障工具窗口, 窗口句柄:199146
+2020-10-20 22:30:13,842 - autoReconnect - INFO - 已经向排障工具发送结束进程指令 True
+2020-10-20 22:30:14,857 - autoReconnect - INFO - Stop fixTools Success
+2020-10-20 22:30:18,024 - autoReconnect - INFO - 客户端遇到错误,即将重试
+2020-10-20 22:30:18,118 - autoReconnect - INFO - 找到重试按钮
+2020-10-20 22:30:18,180 - autoReconnect - INFO - 鼠标双击成功,pot79,408
+2020-10-20 22:30:20,412 - autoReconnect - INFO - 点击重试成功
+2020-10-20 22:30:34,949 - autoReconnect - INFO - 即将操作客户端即将登陆
+2020-10-20 22:30:35,011 - autoReconnect - INFO - 找到登录连接按钮
+2020-10-20 22:30:35,074 - autoReconnect - INFO - 鼠标双击成功,pot176,321
+2020-10-20 22:30:37,492 - autoReconnect - INFO - 点击登录按钮成功
+2020-10-20 22:30:38,116 - autoReconnect - INFO - 上线成功
+2020-10-20 22:35:58,701 - autoReconnect - INFO - 找不到客户端窗口,正在尝试打开客户端...
+2020-10-20 22:36:12,301 - autoReconnect - INFO - 即将操作客户端即将登陆
+2020-10-20 22:36:12,381 - autoReconnect - INFO - 找到登录连接按钮
+2020-10-20 22:36:12,438 - autoReconnect - INFO - 鼠标双击成功,pot176,321
+2020-10-20 22:36:14,412 - autoReconnect - INFO - 点击登录按钮成功
+2020-10-20 22:36:15,739 - autoReconnect - INFO - 上线成功
+2020-10-20 23:51:45,030 - autoReconnect - INFO - 发现自助排障工具窗口, 窗口句柄:1772660
+2020-10-20 23:51:45,030 - autoReconnect - INFO - 已经向排障工具发送结束进程指令 True
+2020-10-20 23:51:46,030 - autoReconnect - INFO - Stop fixTools Success
+2020-10-20 23:51:46,139 - autoReconnect - WARNING - 客户端窗口应该是被隐藏了,窗口位置不正确
+2020-10-20 23:51:46,671 - autoReconnect - ERROR - Traceback (most recent call last):
+  File "autoReconnect.py", line 203, in main
+    iscws,rs_client = isClientWindowShot()
+  File "autoReconnect.py", line 751, in isClientWindowShot
+    return matchClientWindow()
+  File "autoReconnect.py", line 801, in matchClientWindow
+    matchResult = find_picture(cv2.imread("screenshot_crop.jpg"),cv2.imread("./template/window_top.jpg"))#判断登录通知
+  File "autoReconnect.py", line 594, in find_picture
+    result = cv2.matchTemplate(target,template,cv2.TM_CCORR_NORMED)
+cv2.error: OpenCV(4.4.0) C:\Users\appveyor\AppData\Local\Temp\1\pip-req-build-hfoi92lm\opencv\modules\imgproc\src\templmatch.cpp:1163: error: (-215:Assertion failed) (depth == CV_8U || depth == CV_32F) && type == _templ.type() && _img.dims() <= 2 in function 'cv::matchTemplate'
+
+
+2020-10-20 23:51:46,671 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-10-20 23:51:48,549 - autoReconnect - INFO - 客户端遇到错误,即将重试
+2020-10-20 23:51:48,627 - autoReconnect - INFO - 找到重试按钮
+2020-10-20 23:51:48,689 - autoReconnect - INFO - 鼠标双击成功,pot79,408
+2020-10-20 23:51:50,860 - autoReconnect - INFO - 点击重试成功
+2020-10-20 23:51:51,719 - autoReconnect - INFO - 客户端遇到错误,即将重试
+2020-10-20 23:51:51,797 - autoReconnect - INFO - 找到重试按钮
+2020-10-20 23:51:51,860 - autoReconnect - INFO - 鼠标双击成功,pot79,408
+2020-10-20 23:51:54,530 - autoReconnect - INFO - 点击重试成功
+2020-10-20 23:51:55,389 - autoReconnect - INFO - 客户端遇到错误,即将重试
+2020-10-20 23:51:55,499 - autoReconnect - INFO - 找到重试按钮
+2020-10-20 23:51:55,562 - autoReconnect - INFO - 鼠标双击成功,pot79,408
+2020-10-20 23:51:57,748 - autoReconnect - INFO - 点击重试成功
+2020-10-20 23:51:58,763 - autoReconnect - INFO - 客户端遇到错误,即将重试
+2020-10-20 23:51:58,841 - autoReconnect - INFO - 找到重试按钮
+2020-10-20 23:51:58,903 - autoReconnect - INFO - 鼠标双击成功,pot79,408
+2020-10-20 23:52:01,530 - autoReconnect - INFO - 点击重试成功
+2020-10-20 23:52:26,514 - autoReconnect - WARNING - 客户端窗口应该是被隐藏了,窗口位置不正确
+2020-10-20 23:52:27,044 - autoReconnect - ERROR - Traceback (most recent call last):
+  File "autoReconnect.py", line 203, in main
+    iscws,rs_client = isClientWindowShot()
+  File "autoReconnect.py", line 751, in isClientWindowShot
+    return matchClientWindow()
+  File "autoReconnect.py", line 801, in matchClientWindow
+    matchResult = find_picture(cv2.imread("screenshot_crop.jpg"),cv2.imread("./template/window_top.jpg"))#判断登录通知
+  File "autoReconnect.py", line 594, in find_picture
+    result = cv2.matchTemplate(target,template,cv2.TM_CCORR_NORMED)
+cv2.error: OpenCV(4.4.0) C:\Users\appveyor\AppData\Local\Temp\1\pip-req-build-hfoi92lm\opencv\modules\imgproc\src\templmatch.cpp:1163: error: (-215:Assertion failed) (depth == CV_8U || depth == CV_32F) && type == _templ.type() && _img.dims() <= 2 in function 'cv::matchTemplate'
+
+
+2020-10-20 23:52:27,044 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-10-20 23:55:16,237 - autoReconnect - INFO - 找不到客户端窗口,正在尝试打开客户端...
+2020-10-20 23:55:19,311 - autoReconnect - INFO - win32gui前置方式错误,正在尝试使用ctypes方式前置窗口
+2020-10-20 23:55:19,904 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9818841218948364
+2020-10-20 23:55:19,904 - autoReconnect - INFO - win32gui前置方式错误,正在尝试使用ctypes方式前置窗口
+2020-10-20 23:55:19,904 - autoReconnect - ERROR - 客户端窗口前置失败,即将尝试将启动程序...
+2020-10-20 23:55:20,981 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9818841218948364
+2020-10-20 23:55:20,981 - autoReconnect - INFO - win32gui前置方式错误,正在尝试使用ctypes方式前置窗口
+2020-10-20 23:55:20,981 - autoReconnect - ERROR - 客户端窗口前置失败,即将尝试将启动程序...
+2020-10-20 23:55:22,074 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9818841218948364
+2020-10-20 23:55:22,074 - autoReconnect - INFO - win32gui前置方式错误,正在尝试使用ctypes方式前置窗口
+2020-10-20 23:55:22,074 - autoReconnect - ERROR - 客户端窗口前置失败,即将尝试将启动程序...
+2020-10-20 23:55:23,150 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9818841218948364
+2020-10-20 23:55:23,150 - autoReconnect - INFO - win32gui前置方式错误,正在尝试使用ctypes方式前置窗口
+2020-10-20 23:55:23,166 - autoReconnect - ERROR - 客户端窗口前置失败,即将尝试将启动程序...
+2020-10-20 23:55:24,180 - autoReconnect - INFO - 发现自助排障工具窗口, 窗口句柄:132094
+2020-10-20 23:55:24,180 - autoReconnect - INFO - 已经向排障工具发送结束进程指令 True
+2020-10-20 23:55:25,180 - autoReconnect - INFO - Stop fixTools Success
+2020-10-20 23:55:25,258 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9818841218948364
+2020-10-20 23:55:25,258 - autoReconnect - INFO - win32gui前置方式错误,正在尝试使用ctypes方式前置窗口
+2020-10-20 23:55:25,258 - autoReconnect - ERROR - 客户端窗口前置失败,即将尝试将启动程序...
+2020-10-20 23:55:26,335 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9818841218948364
+2020-10-20 23:55:26,335 - autoReconnect - INFO - win32gui前置方式错误,正在尝试使用ctypes方式前置窗口
+2020-10-20 23:55:26,335 - autoReconnect - ERROR - 客户端窗口前置失败,即将尝试将启动程序...
+2020-10-20 23:55:27,411 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9818841218948364
+2020-10-20 23:55:27,411 - autoReconnect - INFO - win32gui前置方式错误,正在尝试使用ctypes方式前置窗口
+2020-10-20 23:55:27,411 - autoReconnect - ERROR - 客户端窗口前置失败,即将尝试将启动程序...
+2020-10-20 23:55:28,491 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9818841218948364
+2020-10-20 23:55:28,506 - autoReconnect - INFO - win32gui前置方式错误,正在尝试使用ctypes方式前置窗口
+2020-10-20 23:55:28,506 - autoReconnect - ERROR - 客户端窗口前置失败,即将尝试将启动程序...
+2020-10-20 23:55:29,584 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9818841218948364
+2020-10-20 23:55:29,584 - autoReconnect - INFO - win32gui前置方式错误,正在尝试使用ctypes方式前置窗口
+2020-10-20 23:55:29,599 - autoReconnect - ERROR - 客户端窗口前置失败,即将尝试将启动程序...
+2020-10-20 23:55:30,677 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9818841218948364
+2020-10-20 23:55:31,659 - autoReconnect - WARNING - 客户端窗口应该是被隐藏了,窗口位置不正确
+2020-10-20 23:55:32,284 - autoReconnect - ERROR - Traceback (most recent call last):
+  File "autoReconnect.py", line 203, in main
+    iscws,rs_client = isClientWindowShot()
+  File "autoReconnect.py", line 751, in isClientWindowShot
+    return matchClientWindow()
+  File "autoReconnect.py", line 801, in matchClientWindow
+    matchResult = find_picture(cv2.imread("screenshot_crop.jpg"),cv2.imread("./template/window_top.jpg"))#判断登录通知
+  File "autoReconnect.py", line 594, in find_picture
+    result = cv2.matchTemplate(target,template,cv2.TM_CCORR_NORMED)
+cv2.error: OpenCV(4.4.0) C:\Users\appveyor\AppData\Local\Temp\1\pip-req-build-hfoi92lm\opencv\modules\imgproc\src\templmatch.cpp:1163: error: (-215:Assertion failed) (depth == CV_8U || depth == CV_32F) && type == _templ.type() && _img.dims() <= 2 in function 'cv::matchTemplate'
+
+
+2020-10-20 23:55:32,284 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-10-20 23:55:33,688 - autoReconnect - INFO - 客户端遇到错误,即将重试
+2020-10-20 23:55:33,798 - autoReconnect - INFO - 找到重试按钮
+2020-10-20 23:55:33,876 - autoReconnect - INFO - 鼠标双击成功,pot79,408

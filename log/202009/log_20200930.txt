@@ -1,0 +1,251 @@
+2020-09-30 11:53:29,485 - autoReconnect - INFO - 上线成功
+2020-09-30 13:10:03,047 - autoReconnect - WARNING - 网络异常,已切出lazyMode
+2020-09-30 13:10:03,226 - autoReconnect - WARNING - 客户端窗口应该是被隐藏了,窗口位置不正确
+2020-09-30 13:10:04,058 - autoReconnect - ERROR - Traceback (most recent call last):
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 192, in main
+    iscws,rs_client = isClientWindowShot()
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 722, in isClientWindowShot
+    return matchClientWindow()
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 759, in matchClientWindow
+    matchResult = find_picture(cv2.imread("screenshot_crop.jpg"),cv2.imread("./template/window_top.jpg"))#判断登录通知
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 565, in find_picture
+    result = cv2.matchTemplate(target,template,cv2.TM_CCORR_NORMED)
+cv2.error: OpenCV(4.4.0) C:\Users\appveyor\AppData\Local\Temp\1\pip-req-build-hfoi92lm\opencv\modules\imgproc\src\templmatch.cpp:1163: error: (-215:Assertion failed) (depth == CV_8U || depth == CV_32F) && type == _templ.type() && _img.dims() <= 2 in function 'cv::matchTemplate'
+
+
+2020-09-30 13:10:04,085 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-09-30 13:32:05,863 - autoReconnect - WARNING - 网络异常,已切出lazyMode
+2020-09-30 13:32:06,068 - autoReconnect - WARNING - 客户端窗口应该是被隐藏了,窗口位置不正确
+2020-09-30 13:32:06,896 - autoReconnect - ERROR - Traceback (most recent call last):
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 192, in main
+    iscws,rs_client = isClientWindowShot()
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 722, in isClientWindowShot
+    return matchClientWindow()
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 759, in matchClientWindow
+    matchResult = find_picture(cv2.imread("screenshot_crop.jpg"),cv2.imread("./template/window_top.jpg"))#判断登录通知
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 565, in find_picture
+    result = cv2.matchTemplate(target,template,cv2.TM_CCORR_NORMED)
+cv2.error: OpenCV(4.4.0) C:\Users\appveyor\AppData\Local\Temp\1\pip-req-build-hfoi92lm\opencv\modules\imgproc\src\templmatch.cpp:1163: error: (-215:Assertion failed) (depth == CV_8U || depth == CV_32F) && type == _templ.type() && _img.dims() <= 2 in function 'cv::matchTemplate'
+
+
+2020-09-30 13:32:06,925 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-09-30 13:43:14,549 - autoReconnect - WARNING - 网络异常,已切出lazyMode
+2020-09-30 13:43:14,748 - autoReconnect - WARNING - 客户端窗口应该是被隐藏了,窗口位置不正确
+2020-09-30 13:43:15,569 - autoReconnect - ERROR - Traceback (most recent call last):
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 192, in main
+    iscws,rs_client = isClientWindowShot()
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 722, in isClientWindowShot
+    return matchClientWindow()
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 759, in matchClientWindow
+    matchResult = find_picture(cv2.imread("screenshot_crop.jpg"),cv2.imread("./template/window_top.jpg"))#判断登录通知
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 565, in find_picture
+    result = cv2.matchTemplate(target,template,cv2.TM_CCORR_NORMED)
+cv2.error: OpenCV(4.4.0) C:\Users\appveyor\AppData\Local\Temp\1\pip-req-build-hfoi92lm\opencv\modules\imgproc\src\templmatch.cpp:1163: error: (-215:Assertion failed) (depth == CV_8U || depth == CV_32F) && type == _templ.type() && _img.dims() <= 2 in function 'cv::matchTemplate'
+
+
+2020-09-30 13:43:15,598 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-09-30 13:43:31,284 - autoReconnect - WARNING - 网络异常,已切出lazyMode
+2020-09-30 13:43:31,468 - autoReconnect - WARNING - 客户端窗口应该是被隐藏了,窗口位置不正确
+2020-09-30 13:43:32,285 - autoReconnect - ERROR - Traceback (most recent call last):
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 192, in main
+    iscws,rs_client = isClientWindowShot()
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 722, in isClientWindowShot
+    return matchClientWindow()
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 759, in matchClientWindow
+    matchResult = find_picture(cv2.imread("screenshot_crop.jpg"),cv2.imread("./template/window_top.jpg"))#判断登录通知
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 565, in find_picture
+    result = cv2.matchTemplate(target,template,cv2.TM_CCORR_NORMED)
+cv2.error: OpenCV(4.4.0) C:\Users\appveyor\AppData\Local\Temp\1\pip-req-build-hfoi92lm\opencv\modules\imgproc\src\templmatch.cpp:1163: error: (-215:Assertion failed) (depth == CV_8U || depth == CV_32F) && type == _templ.type() && _img.dims() <= 2 in function 'cv::matchTemplate'
+
+
+2020-09-30 13:43:32,315 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-09-30 13:43:34,680 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.981884241104126
+2020-09-30 13:43:48,852 - autoReconnect - INFO - 客户端遇到错误,即将重试
+2020-09-30 13:43:48,966 - autoReconnect - INFO - 找到重试按钮
+2020-09-30 13:43:49,023 - autoReconnect - INFO - 鼠标双击成功,pot79,408
+2020-09-30 13:43:51,015 - autoReconnect - INFO - 点击重试成功
+2020-09-30 13:44:06,024 - autoReconnect - ERROR - Traceback (most recent call last):
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 201, in main
+    if(not cutScreenShotFitPrgm()):
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 535, in cutScreenShotFitPrgm
+    if(pot[0]<0 or pot[1]<0):
+TypeError: 'NoneType' object is not subscriptable
+
+2020-09-30 13:44:06,057 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-09-30 13:44:06,067 - autoReconnect - ERROR - 校园客户端程序没有启动, 正在尝试重启客户端
+2020-09-30 13:44:09,528 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-09-30 13:44:10,286 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.998460054397583
+2020-09-30 13:44:11,299 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984602928161621
+2020-09-30 13:44:12,299 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984602332115173
+2020-09-30 13:44:13,323 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984602928161621
+2020-09-30 13:44:14,336 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984602928161621
+2020-09-30 13:44:15,353 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984602332115173
+2020-09-30 13:44:16,354 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984602928161621
+2020-09-30 13:44:17,358 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984602928161621
+2020-09-30 13:44:18,355 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984602928161621
+2020-09-30 13:44:19,355 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984602332115173
+2020-09-30 13:44:20,404 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984602332115173
+2020-09-30 13:44:21,432 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984602332115173
+2020-09-30 13:44:21,441 - autoReconnect - INFO - win32gui前置方式错误,正在尝试使用ctypes方式前置窗口
+2020-09-30 13:44:21,450 - autoReconnect - ERROR - 客户端窗口前置失败,即将尝试将启动程序...
+2020-09-30 13:44:22,548 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984602332115173
+2020-09-30 13:44:23,544 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984602928161621
+2020-09-30 13:44:24,545 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984602928161621
+2020-09-30 13:44:25,548 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984602332115173
+2020-09-30 13:44:26,570 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984602332115173
+2020-09-30 13:44:27,584 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984601140022278
+2020-09-30 13:44:28,595 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.998460054397583
+2020-09-30 13:44:29,576 - autoReconnect - INFO - 发现自助排障工具窗口, 窗口句柄:4130364
+2020-09-30 13:44:29,576 - autoReconnect - INFO - 已经向排障工具发送结束进程指令 True
+2020-09-30 13:44:30,577 - autoReconnect - INFO - Stop fixTools Success
+2020-09-30 13:44:30,667 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984602928161621
+2020-09-30 13:44:31,673 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984602332115173
+2020-09-30 13:44:32,618 - autoReconnect - INFO - 客户端遇到错误,即将重试
+2020-09-30 13:44:32,708 - autoReconnect - ERROR - 找不到重试按钮,精度:0.9984579086303711 正在重试
+2020-09-30 13:44:32,788 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984604716300964
+2020-09-30 13:44:33,720 - autoReconnect - INFO - 客户端遇到错误,即将重试
+2020-09-30 13:44:33,810 - autoReconnect - ERROR - 找不到重试按钮,精度:0.9984579086303711 正在重试
+2020-09-30 13:44:33,900 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.998460054397583
+2020-09-30 13:44:34,811 - autoReconnect - INFO - 点击重试成功
+2020-09-30 13:44:34,891 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984602928161621
+2020-09-30 13:44:35,873 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984602928161621
+2020-09-30 13:44:36,864 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984602928161621
+2020-09-30 13:44:37,849 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984602928161621
+2020-09-30 13:44:38,850 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984602332115173
+2020-09-30 13:44:39,833 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984604120254517
+2020-09-30 13:44:40,825 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.998460054397583
+2020-09-30 13:44:41,830 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984601140022278
+2020-09-30 13:44:42,831 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984602928161621
+2020-09-30 13:44:43,822 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9048359394073486
+2020-09-30 13:44:43,832 - autoReconnect - INFO - win32gui前置方式错误,正在尝试使用ctypes方式前置窗口
+2020-09-30 13:44:43,842 - autoReconnect - ERROR - 客户端窗口前置失败,即将尝试将启动程序...
+2020-09-30 13:44:44,933 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9048359394073486
+2020-09-30 13:44:45,935 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984602928161621
+2020-09-30 13:44:46,936 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984601140022278
+2020-09-30 13:44:46,936 - autoReconnect - INFO - win32gui前置方式错误,正在尝试使用ctypes方式前置窗口
+2020-09-30 13:44:46,946 - autoReconnect - ERROR - 客户端窗口前置失败,即将尝试将启动程序...
+2020-09-30 13:44:48,037 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984601140022278
+2020-09-30 13:44:49,028 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984602928161621
+2020-09-30 13:44:50,009 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984602332115173
+2020-09-30 13:44:50,991 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.998460054397583
+2020-09-30 13:44:51,992 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.998460054397583
+2020-09-30 13:44:52,993 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984602928161621
+2020-09-30 13:44:53,994 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984602332115173
+2020-09-30 13:44:54,945 - autoReconnect - INFO - 发现提示窗口,窗口句柄:4328106
+2020-09-30 13:44:54,955 - autoReconnect - INFO - 这个提示窗口来自客户端,正在尝试关闭窗口
+2020-09-30 13:44:54,975 - autoReconnect - INFO - Close notic window Success
+2020-09-30 13:44:55,065 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984602928161621
+2020-09-30 13:44:56,067 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984602928161621
+2020-09-30 13:44:57,063 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984601140022278
+2020-09-30 13:44:58,070 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.998460054397583
+2020-09-30 13:44:59,095 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984602928161621
+2020-09-30 13:45:00,115 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984602332115173
+2020-09-30 13:45:01,127 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984602332115173
+2020-09-30 13:45:02,283 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9068167805671692
+2020-09-30 13:45:03,267 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984602928161621
+2020-09-30 13:45:04,355 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.981884241104126
+2020-09-30 13:45:05,356 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984602928161621
+2020-09-30 13:45:06,368 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984602928161621
+2020-09-30 13:45:07,379 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9048359394073486
+2020-09-30 13:45:07,389 - autoReconnect - INFO - win32gui前置方式错误,正在尝试使用ctypes方式前置窗口
+2020-09-30 13:45:07,389 - autoReconnect - ERROR - 客户端窗口前置失败,即将尝试将启动程序...
+2020-09-30 13:45:08,481 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9048359394073486
+2020-09-30 13:47:38,141 - autoReconnect - INFO - 找不到客户端窗口,正在尝试打开客户端...
+2020-09-30 13:47:42,585 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984602928161621
+2020-09-30 13:47:44,021 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984571933746338
+2020-09-30 13:47:44,989 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984570145606995
+2020-09-30 13:47:45,972 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984571933746338
+2020-09-30 13:47:46,955 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984571933746338
+2020-09-30 13:47:47,937 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984570145606995
+2020-09-30 13:47:48,907 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984571933746338
+2020-09-30 13:47:49,952 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984571933746338
+2020-09-30 13:47:51,491 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984570145606995
+2020-09-30 13:47:53,412 - autoReconnect - INFO - 即将操作客户端即将登陆
+2020-09-30 13:47:53,472 - autoReconnect - INFO - 找到登录连接按钮
+2020-09-30 13:47:53,532 - autoReconnect - INFO - 鼠标双击成功,pot176,321
+2020-09-30 13:47:56,244 - autoReconnect - INFO - 点击登录按钮成功
+2020-09-30 13:47:56,874 - autoReconnect - INFO - 上线成功
+2020-09-30 15:53:43,114 - autoReconnect - WARNING - 网络异常,已切出lazyMode
+2020-09-30 15:53:43,301 - autoReconnect - WARNING - 客户端窗口应该是被隐藏了,窗口位置不正确
+2020-09-30 15:53:44,115 - autoReconnect - ERROR - Traceback (most recent call last):
+  File "autoReconnect.py", line 192, in main
+    iscws,rs_client = isClientWindowShot()
+  File "autoReconnect.py", line 722, in isClientWindowShot
+    return matchClientWindow()
+  File "autoReconnect.py", line 759, in matchClientWindow
+    matchResult = find_picture(cv2.imread("screenshot_crop.jpg"),cv2.imread("./template/window_top.jpg"))#判断登录通知
+  File "autoReconnect.py", line 565, in find_picture
+    result = cv2.matchTemplate(target,template,cv2.TM_CCORR_NORMED)
+cv2.error: OpenCV(4.4.0) C:\Users\appveyor\AppData\Local\Temp\1\pip-req-build-hfoi92lm\opencv\modules\imgproc\src\templmatch.cpp:1163: error: (-215:Assertion failed) (depth == CV_8U || depth == CV_32F) && type == _templ.type() && _img.dims() <= 2 in function 'cv::matchTemplate'
+
+
+2020-09-30 15:53:44,131 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-09-30 18:27:08,553 - autoReconnect - WARNING - 网络异常,已切出lazyMode
+2020-09-30 18:27:09,003 - autoReconnect - WARNING - 客户端窗口应该是被隐藏了,窗口位置不正确
+2020-09-30 18:27:09,018 - autoReconnect - INFO - win32gui前置方式错误,正在尝试使用ctypes方式前置窗口
+2020-09-30 18:27:09,018 - autoReconnect - WARNING - 客户端窗口前置失败,重试中...
+2020-09-30 18:27:10,037 - autoReconnect - ERROR - Traceback (most recent call last):
+  File "autoReconnect.py", line 192, in main
+    iscws,rs_client = isClientWindowShot()
+  File "autoReconnect.py", line 722, in isClientWindowShot
+    return matchClientWindow()
+  File "autoReconnect.py", line 759, in matchClientWindow
+    matchResult = find_picture(cv2.imread("screenshot_crop.jpg"),cv2.imread("./template/window_top.jpg"))#判断登录通知
+  File "autoReconnect.py", line 565, in find_picture
+    result = cv2.matchTemplate(target,template,cv2.TM_CCORR_NORMED)
+cv2.error: OpenCV(4.4.0) C:\Users\appveyor\AppData\Local\Temp\1\pip-req-build-hfoi92lm\opencv\modules\imgproc\src\templmatch.cpp:1163: error: (-215:Assertion failed) (depth == CV_8U || depth == CV_32F) && type == _templ.type() && _img.dims() <= 2 in function 'cv::matchTemplate'
+
+
+2020-09-30 18:27:10,069 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-09-30 18:27:12,644 - autoReconnect - INFO - 客户端遇到错误,即将重试
+2020-09-30 18:27:12,972 - autoReconnect - INFO - 找到重试按钮
+2020-09-30 18:27:13,284 - autoReconnect - INFO - 鼠标双击成功,pot79,408
+2020-09-30 18:27:14,786 - autoReconnect - INFO - 发现自助排障工具窗口, 窗口句柄:132610
+2020-09-30 18:27:14,900 - autoReconnect - INFO - 已经向排障工具发送结束进程指令 True
+2020-09-30 18:27:15,915 - autoReconnect - INFO - Stop fixTools Success
+2020-09-30 18:27:17,976 - autoReconnect - INFO - 上线成功
+2020-09-30 18:27:22,180 - autoReconnect - INFO - 点击断开按钮成功
+2020-09-30 18:27:23,384 - autoReconnect - WARNING - 无法匹配窗口,出现错误,尝试重设窗口位置
+2020-09-30 18:27:23,384 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-09-30 18:27:34,894 - autoReconnect - INFO - 即将操作客户端即将登陆
+2020-09-30 18:27:34,956 - autoReconnect - INFO - 找到登录连接按钮
+2020-09-30 18:27:35,019 - autoReconnect - INFO - 鼠标双击成功,pot176,321
+2020-09-30 18:27:37,516 - autoReconnect - INFO - 点击登录按钮成功
+2020-09-30 18:27:38,268 - autoReconnect - INFO - 上线成功
+2020-09-30 23:15:53,087 - autoReconnect - INFO - 找不到客户端窗口,正在尝试打开客户端...
+2020-09-30 23:16:01,202 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984570145606995
+2020-09-30 23:16:02,201 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984570145606995
+2020-09-30 23:16:03,184 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984570145606995
+2020-09-30 23:16:04,183 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984570145606995
+2020-09-30 23:16:05,154 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.998457133769989
+2020-09-30 23:16:06,138 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984570145606995
+2020-09-30 23:16:07,276 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.998457133769989
+2020-09-30 23:16:08,259 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9984570145606995
+2020-09-30 23:16:09,242 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.998457133769989
+2020-09-30 23:16:10,226 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.998457133769989
+2020-09-30 23:16:12,098 - autoReconnect - INFO - 即将操作客户端即将登陆
+2020-09-30 23:16:12,176 - autoReconnect - INFO - 找到登录连接按钮
+2020-09-30 23:16:12,238 - autoReconnect - INFO - 鼠标双击成功,pot176,321
+2020-09-30 23:16:14,985 - autoReconnect - INFO - 点击登录按钮成功
+2020-09-30 23:16:15,624 - autoReconnect - INFO - 上线成功
+2020-09-30 23:25:47,630 - autoReconnect - WARNING - 网络异常,已切出lazyMode
+2020-09-30 23:25:47,786 - autoReconnect - WARNING - 客户端窗口应该是被隐藏了,窗口位置不正确
+2020-09-30 23:25:48,584 - autoReconnect - ERROR - Traceback (most recent call last):
+  File "autoReconnect.py", line 192, in main
+    iscws,rs_client = isClientWindowShot()
+  File "autoReconnect.py", line 722, in isClientWindowShot
+    return matchClientWindow()
+  File "autoReconnect.py", line 759, in matchClientWindow
+    matchResult = find_picture(cv2.imread("screenshot_crop.jpg"),cv2.imread("./template/window_top.jpg"))#判断登录通知
+  File "autoReconnect.py", line 565, in find_picture
+    result = cv2.matchTemplate(target,template,cv2.TM_CCORR_NORMED)
+cv2.error: OpenCV(4.4.0) C:\Users\appveyor\AppData\Local\Temp\1\pip-req-build-hfoi92lm\opencv\modules\imgproc\src\templmatch.cpp:1163: error: (-215:Assertion failed) (depth == CV_8U || depth == CV_32F) && type == _templ.type() && _img.dims() <= 2 in function 'cv::matchTemplate'
+
+
+2020-09-30 23:25:48,599 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-10-01 00:16:41,581 - autoReconnect - WARNING - 网络异常,已切出lazyMode
+2020-10-01 00:16:43,441 - autoReconnect - INFO - 即将操作客户端即将登陆
+2020-10-01 00:16:43,499 - autoReconnect - INFO - 找到登录连接按钮
+2020-10-01 00:16:43,552 - autoReconnect - INFO - 鼠标双击成功,pot176,321
+2020-10-01 00:16:45,662 - autoReconnect - INFO - 点击登录按钮成功
+2020-10-01 00:16:46,409 - autoReconnect - INFO - 上线成功

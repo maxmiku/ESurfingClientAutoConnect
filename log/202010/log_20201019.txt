@@ -1,0 +1,309 @@
+2020-10-19 00:29:06,214 - autoReconnect - ERROR - Traceback (most recent call last):
+  File "autoReconnect.py", line 206, in main
+    if(not cutScreenShotFitPrgm()):
+  File "autoReconnect.py", line 540, in cutScreenShotFitPrgm
+    if(pot[0]<0 or pot[1]<0):
+TypeError: 'NoneType' object is not subscriptable
+
+2020-10-19 00:29:06,244 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-10-19 00:29:06,254 - autoReconnect - ERROR - 校园客户端程序没有启动, 正在尝试重启客户端
+2020-10-19 00:29:09,495 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-10-19 00:29:23,434 - autoReconnect - INFO - 即将操作客户端即将登陆
+2020-10-19 00:29:23,504 - autoReconnect - INFO - 找到登录连接按钮
+2020-10-19 00:29:23,564 - autoReconnect - INFO - 鼠标双击成功,pot176,321
+2020-10-19 00:29:27,018 - autoReconnect - INFO - 点击登录按钮成功
+2020-10-19 00:29:27,942 - autoReconnect - INFO - 上线成功
+2020-10-19 00:47:49,888 - autoReconnect - INFO - 上线成功
+2020-10-19 00:49:40,413 - autoReconnect - INFO - 上线成功
+2020-10-19 00:50:19,938 - autoReconnect - WARNING - 网络异常,已切出lazyMode
+2020-10-19 00:50:20,208 - autoReconnect - WARNING - 客户端窗口应该是被隐藏了,窗口位置不正确
+2020-10-19 00:50:20,739 - autoReconnect - INFO - 发现自助排障工具窗口, 窗口句柄:854326
+2020-10-19 00:50:20,739 - autoReconnect - INFO - 已经向排障工具发送结束进程指令 True
+2020-10-19 00:50:21,739 - autoReconnect - INFO - Stop fixTools Success
+2020-10-19 00:50:21,789 - autoReconnect - ERROR - Traceback (most recent call last):
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 203, in main
+    iscws,rs_client = isClientWindowShot()
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 746, in isClientWindowShot
+    return matchClientWindow()
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 795, in matchClientWindow
+    matchResult = find_picture(cv2.imread("screenshot_crop.jpg"),cv2.imread("./template/window_top.jpg"))#判断登录通知
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 589, in find_picture
+    result = cv2.matchTemplate(target,template,cv2.TM_CCORR_NORMED)
+cv2.error: OpenCV(4.4.0) C:\Users\appveyor\AppData\Local\Temp\1\pip-req-build-hfoi92lm\opencv\modules\imgproc\src\templmatch.cpp:1163: error: (-215:Assertion failed) (depth == CV_8U || depth == CV_32F) && type == _templ.type() && _img.dims() <= 2 in function 'cv::matchTemplate'
+
+
+2020-10-19 00:50:21,869 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-10-19 00:50:23,556 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9818887114524841
+2020-10-19 00:50:25,428 - autoReconnect - INFO - 客户端遇到错误,即将重试
+2020-10-19 00:50:25,538 - autoReconnect - INFO - 找到重试按钮
+2020-10-19 00:50:25,598 - autoReconnect - INFO - 鼠标双击成功,pot68,407
+2020-10-19 00:50:28,441 - autoReconnect - INFO - 点击重试成功
+2020-10-19 00:50:43,714 - autoReconnect - INFO - 客户端遇到错误,即将重试
+2020-10-19 00:50:43,814 - autoReconnect - INFO - 找到重试按钮
+2020-10-19 00:50:43,874 - autoReconnect - INFO - 鼠标双击成功,pot68,407
+2020-10-19 00:50:46,874 - autoReconnect - INFO - 点击重试成功
+2020-10-19 00:50:53,165 - autoReconnect - INFO - 客户端遇到错误,即将重试
+2020-10-19 00:50:53,285 - autoReconnect - INFO - 找到重试按钮
+2020-10-19 00:50:53,345 - autoReconnect - INFO - 鼠标双击成功,pot68,407
+2020-10-19 00:51:02,164 - autoReconnect - INFO - 点击重试成功
+2020-10-19 00:51:38,332 - autoReconnect - ERROR - 掉线超过120s 即将重启客户端
+2020-10-19 00:51:38,742 - autoReconnect - ERROR - Traceback (most recent call last):
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 212, in main
+    if(not cutScreenShotFitPrgm()):
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 559, in cutScreenShotFitPrgm
+    if(pot[0]<0 or pot[1]<0):
+TypeError: 'NoneType' object is not subscriptable
+
+2020-10-19 00:51:38,772 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-10-19 00:51:38,782 - autoReconnect - ERROR - 校园客户端程序没有启动, 正在尝试重启客户端
+2020-10-19 00:51:41,912 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-10-19 00:51:43,023 - autoReconnect - ERROR - 掉线超过120s 即将重启客户端
+2020-10-19 00:51:43,361 - autoReconnect - ERROR - Traceback (most recent call last):
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 212, in main
+    if(not cutScreenShotFitPrgm()):
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 559, in cutScreenShotFitPrgm
+    if(pot[0]<0 or pot[1]<0):
+TypeError: 'NoneType' object is not subscriptable
+
+2020-10-19 00:51:43,387 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-10-19 00:51:43,417 - autoReconnect - ERROR - 校园客户端程序没有启动, 正在尝试重启客户端
+2020-10-19 00:51:46,769 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-10-19 00:51:47,923 - autoReconnect - ERROR - 掉线超过120s 即将重启客户端
+2020-10-19 00:51:48,252 - autoReconnect - ERROR - Traceback (most recent call last):
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 212, in main
+    if(not cutScreenShotFitPrgm()):
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 559, in cutScreenShotFitPrgm
+    if(pot[0]<0 or pot[1]<0):
+TypeError: 'NoneType' object is not subscriptable
+
+2020-10-19 00:51:48,286 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-10-19 00:51:48,295 - autoReconnect - ERROR - 校园客户端程序没有启动, 正在尝试重启客户端
+2020-10-19 00:51:51,529 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-10-19 00:51:52,856 - autoReconnect - ERROR - 掉线超过120s 即将重启客户端
+2020-10-19 00:51:53,279 - autoReconnect - ERROR - Traceback (most recent call last):
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 212, in main
+    if(not cutScreenShotFitPrgm()):
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 559, in cutScreenShotFitPrgm
+    if(pot[0]<0 or pot[1]<0):
+TypeError: 'NoneType' object is not subscriptable
+
+2020-10-19 00:51:53,309 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-10-19 00:51:53,310 - autoReconnect - ERROR - 校园客户端程序没有启动, 正在尝试重启客户端
+2020-10-19 00:51:56,488 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-10-19 00:51:57,663 - autoReconnect - ERROR - 掉线超过120s 即将重启客户端
+2020-10-19 00:51:57,979 - autoReconnect - ERROR - Traceback (most recent call last):
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 212, in main
+    if(not cutScreenShotFitPrgm()):
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 559, in cutScreenShotFitPrgm
+    if(pot[0]<0 or pot[1]<0):
+TypeError: 'NoneType' object is not subscriptable
+
+2020-10-19 00:51:58,005 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-10-19 00:51:58,015 - autoReconnect - ERROR - 校园客户端程序没有启动, 正在尝试重启客户端
+2020-10-19 00:53:13,615 - autoReconnect - ERROR - Traceback (most recent call last):
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 349, in main
+    if(last_online<time.time()-disconnect_timeout):
+UnboundLocalError: local variable 'last_online' referenced before assignment
+
+2020-10-19 00:53:13,615 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-10-19 00:53:15,026 - autoReconnect - ERROR - Traceback (most recent call last):
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 349, in main
+    if(last_online<time.time()-disconnect_timeout):
+UnboundLocalError: local variable 'last_online' referenced before assignment
+
+2020-10-19 00:53:15,066 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-10-19 00:53:16,509 - autoReconnect - ERROR - Traceback (most recent call last):
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 314, in main
+    if stage_start_time==-1:
+UnboundLocalError: local variable 'stage_start_time' referenced before assignment
+
+2020-10-19 00:53:16,529 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-10-19 00:53:18,002 - autoReconnect - ERROR - Traceback (most recent call last):
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 314, in main
+    if stage_start_time==-1:
+UnboundLocalError: local variable 'stage_start_time' referenced before assignment
+
+2020-10-19 00:53:18,072 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-10-19 00:53:19,554 - autoReconnect - ERROR - Traceback (most recent call last):
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 314, in main
+    if stage_start_time==-1:
+UnboundLocalError: local variable 'stage_start_time' referenced before assignment
+
+2020-10-19 00:53:19,584 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-10-19 00:53:21,251 - autoReconnect - ERROR - Traceback (most recent call last):
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 314, in main
+    if stage_start_time==-1:
+UnboundLocalError: local variable 'stage_start_time' referenced before assignment
+
+2020-10-19 00:53:21,291 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-10-19 00:53:22,687 - autoReconnect - ERROR - Traceback (most recent call last):
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 314, in main
+    if stage_start_time==-1:
+UnboundLocalError: local variable 'stage_start_time' referenced before assignment
+
+2020-10-19 00:53:22,727 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-10-19 00:53:24,581 - autoReconnect - ERROR - Traceback (most recent call last):
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 314, in main
+    if stage_start_time==-1:
+UnboundLocalError: local variable 'stage_start_time' referenced before assignment
+
+2020-10-19 00:53:24,693 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-10-19 00:53:59,015 - autoReconnect - ERROR - Traceback (most recent call last):
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 349, in main
+    if(last_online<time.time()-disconnect_timeout):
+UnboundLocalError: local variable 'last_online' referenced before assignment
+
+2020-10-19 00:53:59,015 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-10-19 00:54:00,437 - autoReconnect - ERROR - Traceback (most recent call last):
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 349, in main
+    if(last_online<time.time()-disconnect_timeout):
+UnboundLocalError: local variable 'last_online' referenced before assignment
+
+2020-10-19 00:54:00,467 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-10-19 00:54:01,841 - autoReconnect - ERROR - Traceback (most recent call last):
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 349, in main
+    if(last_online<time.time()-disconnect_timeout):
+UnboundLocalError: local variable 'last_online' referenced before assignment
+
+2020-10-19 00:54:01,881 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-10-19 00:55:13,875 - autoReconnect - WARNING - 卡在断开中时间超过60s 将重启客户端
+2020-10-19 00:55:14,652 - autoReconnect - ERROR - Traceback (most recent call last):
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 212, in main
+    if(not cutScreenShotFitPrgm()):
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 561, in cutScreenShotFitPrgm
+    if(pot[0]<0 or pot[1]<0):
+TypeError: 'NoneType' object is not subscriptable
+
+2020-10-19 00:55:14,712 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-10-19 00:55:14,742 - autoReconnect - ERROR - 校园客户端程序没有启动, 正在尝试重启客户端
+2020-10-19 00:55:18,029 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-10-19 00:59:22,559 - autoReconnect - ERROR - 掉线超过120s 即将重启客户端
+2020-10-19 00:59:23,058 - autoReconnect - ERROR - Traceback (most recent call last):
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 212, in main
+    if(not cutScreenShotFitPrgm()):
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 564, in cutScreenShotFitPrgm
+    if(pot[0]<0 or pot[1]<0):
+TypeError: 'NoneType' object is not subscriptable
+
+2020-10-19 00:59:23,089 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-10-19 00:59:23,105 - autoReconnect - ERROR - 校园客户端程序没有启动, 正在尝试重启客户端
+2020-10-19 00:59:26,356 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-10-19 01:00:00,018 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9646433591842651
+2020-10-19 01:00:01,312 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9646431803703308
+2020-10-19 01:00:02,942 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9211053252220154
+2020-10-19 01:01:50,375 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9818912744522095
+2020-10-19 01:01:52,620 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.7990974187850952
+2020-10-19 01:10:38,620 - autoReconnect - WARNING - 卡在断开中时间超过60s 将重启客户端
+2020-10-19 01:10:39,026 - autoReconnect - ERROR - Traceback (most recent call last):
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 212, in main
+    if(not cutScreenShotFitPrgm()):
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 564, in cutScreenShotFitPrgm
+    if(pot[0]<0 or pot[1]<0):
+TypeError: 'NoneType' object is not subscriptable
+
+2020-10-19 01:10:39,042 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-10-19 01:10:39,057 - autoReconnect - ERROR - 校园客户端程序没有启动, 正在尝试重启客户端
+2020-10-19 01:10:42,209 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-10-19 01:10:56,286 - autoReconnect - INFO - 即将操作客户端即将登陆
+2020-10-19 01:10:56,348 - autoReconnect - INFO - 找到登录连接按钮
+2020-10-19 01:10:56,410 - autoReconnect - INFO - 鼠标双击成功,pot176,321
+2020-10-19 01:10:59,799 - autoReconnect - INFO - 点击登录按钮成功
+2020-10-19 01:11:00,611 - autoReconnect - INFO - 上线成功
+2020-10-19 04:34:57,671 - autoReconnect - WARNING - 网络异常,已切出lazyMode
+2020-10-19 04:34:57,811 - autoReconnect - WARNING - 客户端窗口应该是被隐藏了,窗口位置不正确
+2020-10-19 04:34:58,467 - autoReconnect - ERROR - Traceback (most recent call last):
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 203, in main
+    iscws,rs_client = isClientWindowShot()
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 751, in isClientWindowShot
+    return matchClientWindow()
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 801, in matchClientWindow
+    matchResult = find_picture(cv2.imread("screenshot_crop.jpg"),cv2.imread("./template/window_top.jpg"))#判断登录通知
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 594, in find_picture
+    result = cv2.matchTemplate(target,template,cv2.TM_CCORR_NORMED)
+cv2.error: OpenCV(4.4.0) C:\Users\appveyor\AppData\Local\Temp\1\pip-req-build-hfoi92lm\opencv\modules\imgproc\src\templmatch.cpp:1163: error: (-215:Assertion failed) (depth == CV_8U || depth == CV_32F) && type == _templ.type() && _img.dims() <= 2 in function 'cv::matchTemplate'
+
+
+2020-10-19 04:34:58,577 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-10-19 04:35:04,062 - autoReconnect - WARNING - 网络连接不通,累计:0
+2020-10-19 04:35:09,654 - autoReconnect - WARNING - 网络连接不通,累计:1
+2020-10-19 04:35:15,339 - autoReconnect - WARNING - 网络连接不通,累计:2
+2020-10-19 04:35:15,339 - autoReconnect - WARNING - 网络连接不通>2,正在尝试断线重连
+2020-10-19 04:35:15,432 - autoReconnect - INFO - 找到断开连接按钮
+2020-10-19 04:35:15,510 - autoReconnect - INFO - 鼠标双击成功,pot176,370
+2020-10-19 04:35:16,167 - autoReconnect - INFO - 点击断开按钮成功
+2020-10-19 04:35:20,792 - autoReconnect - WARNING - 卡在断开中时间超过60s 将重启客户端
+2020-10-19 04:35:21,339 - autoReconnect - ERROR - Traceback (most recent call last):
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 212, in main
+    if(not cutScreenShotFitPrgm()):
+  File "C:\Users\lexuan\Desktop\电信重连NAS版\autoReconnect.py", line 564, in cutScreenShotFitPrgm
+    if(pot[0]<0 or pot[1]<0):
+TypeError: 'NoneType' object is not subscriptable
+
+2020-10-19 04:35:21,370 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-10-19 04:35:21,370 - autoReconnect - ERROR - 校园客户端程序没有启动, 正在尝试重启客户端
+2020-10-19 04:35:24,547 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-10-19 04:35:44,610 - autoReconnect - INFO - 发现自助排障工具窗口, 窗口句柄:1704834
+2020-10-19 04:35:44,626 - autoReconnect - INFO - 已经向排障工具发送结束进程指令 True
+2020-10-19 04:35:45,641 - autoReconnect - INFO - Stop fixTools Success
+2020-10-19 04:35:46,079 - autoReconnect - INFO - 客户端遇到错误,即将重试
+2020-10-19 04:35:46,172 - autoReconnect - INFO - 找到重试按钮
+2020-10-19 04:35:46,235 - autoReconnect - INFO - 鼠标双击成功,pot79,408
+2020-10-19 04:35:48,564 - autoReconnect - INFO - 点击重试成功
+2020-10-19 05:06:23,334 - autoReconnect - INFO - 找不到客户端窗口,正在尝试打开客户端...
+2020-10-19 05:06:26,366 - autoReconnect - INFO - 找不到客户端窗口,正在尝试打开客户端...
+2020-10-19 11:21:36,815 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9042682647705078
+2020-10-19 11:21:36,815 - autoReconnect - INFO - win32gui前置方式错误,正在尝试使用ctypes方式前置窗口
+2020-10-19 11:21:36,815 - autoReconnect - ERROR - 客户端窗口前置失败,即将尝试将启动程序...
+2020-10-19 11:21:37,910 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9042682647705078
+2020-10-19 11:21:37,913 - autoReconnect - INFO - win32gui前置方式错误,正在尝试使用ctypes方式前置窗口
+2020-10-19 11:21:37,913 - autoReconnect - ERROR - 客户端窗口前置失败,即将尝试将启动程序...
+2020-10-19 11:21:39,015 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9042682647705078
+2020-10-19 11:21:39,015 - autoReconnect - INFO - win32gui前置方式错误,正在尝试使用ctypes方式前置窗口
+2020-10-19 11:21:39,015 - autoReconnect - ERROR - 客户端窗口前置失败,即将尝试将启动程序...
+2020-10-19 11:21:40,095 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9042682647705078
+2020-10-19 11:21:40,124 - autoReconnect - INFO - win32gui前置方式错误,正在尝试使用ctypes方式前置窗口
+2020-10-19 11:21:40,129 - autoReconnect - ERROR - 客户端窗口前置失败,即将尝试将启动程序...
+2020-10-19 11:21:41,214 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9042682647705078
+2020-10-19 11:21:46,502 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.9647384881973267
+2020-10-19 11:21:53,615 - autoReconnect - WARNING - 客户端窗口应该是被隐藏了,窗口位置不正确
+2020-10-19 11:21:54,183 - autoReconnect - ERROR - Traceback (most recent call last):
+  File "autoReconnect.py", line 203, in main
+    iscws,rs_client = isClientWindowShot()
+  File "autoReconnect.py", line 751, in isClientWindowShot
+    return matchClientWindow()
+  File "autoReconnect.py", line 801, in matchClientWindow
+    matchResult = find_picture(cv2.imread("screenshot_crop.jpg"),cv2.imread("./template/window_top.jpg"))#判断登录通知
+  File "autoReconnect.py", line 594, in find_picture
+    result = cv2.matchTemplate(target,template,cv2.TM_CCORR_NORMED)
+cv2.error: OpenCV(4.4.0) C:\Users\appveyor\AppData\Local\Temp\1\pip-req-build-hfoi92lm\opencv\modules\imgproc\src\templmatch.cpp:1163: error: (-215:Assertion failed) (depth == CV_8U || depth == CV_32F) && type == _templ.type() && _img.dims() <= 2 in function 'cv::matchTemplate'
+
+
+2020-10-19 11:21:54,183 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-10-19 11:22:11,084 - autoReconnect - ERROR - Traceback (most recent call last):
+  File "autoReconnect.py", line 222, in main
+    tmp, result = whichStage()
+  File "autoReconnect.py", line 688, in whichStage
+    rs, result = allStage[i]()
+  File "autoReconnect.py", line 813, in matchLoading
+    matchResult = find_picture(cv2.imread("screenshot_crop.jpg"),cv2.imread("./template/loadingTop.jpg"))#判断是否正在加载中
+  File "autoReconnect.py", line 594, in find_picture
+    result = cv2.matchTemplate(target,template,cv2.TM_CCORR_NORMED)
+cv2.error: OpenCV(4.4.0) C:\Users\appveyor\AppData\Local\Temp\1\pip-req-build-hfoi92lm\opencv\modules\imgproc\src\templmatch.cpp:1174: error: (-215:Assertion failed) _img.size().height <= _templ.size().height && _img.size().width <= _templ.size().width in function 'cv::matchTemplate'
+
+
+2020-10-19 11:22:11,084 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
+2020-10-19 21:35:26,810 - autoReconnect - WARNING - 当前截图不属于客户端,正在将客户端调前... 精度:0.981884241104126
+2020-10-19 21:35:34,304 - autoReconnect - WARNING - 客户端窗口应该是被隐藏了,窗口位置不正确
+2020-10-19 21:35:34,865 - autoReconnect - ERROR - Traceback (most recent call last):
+  File "autoReconnect.py", line 203, in main
+    iscws,rs_client = isClientWindowShot()
+  File "autoReconnect.py", line 751, in isClientWindowShot
+    return matchClientWindow()
+  File "autoReconnect.py", line 801, in matchClientWindow
+    matchResult = find_picture(cv2.imread("screenshot_crop.jpg"),cv2.imread("./template/window_top.jpg"))#判断登录通知
+  File "autoReconnect.py", line 594, in find_picture
+    result = cv2.matchTemplate(target,template,cv2.TM_CCORR_NORMED)
+cv2.error: OpenCV(4.4.0) C:\Users\appveyor\AppData\Local\Temp\1\pip-req-build-hfoi92lm\opencv\modules\imgproc\src\templmatch.cpp:1163: error: (-215:Assertion failed) (depth == CV_8U || depth == CV_32F) && type == _templ.type() && _img.dims() <= 2 in function 'cv::matchTemplate'
+
+
+2020-10-19 21:35:34,865 - autoReconnect - WARNING - 正在尝试修复找不到窗口的错误
