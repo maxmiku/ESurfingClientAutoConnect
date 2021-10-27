@@ -11,5 +11,5 @@
 ## 使用方法
 
 1. 进入到`template`目录然后通过截图软件截取相应位置的图片并覆盖原有的文件(主要是提高识别准确度)
-2. 点击 `autoReconnect.bat` 启动 或 运行 `autoReconnect.py`即可
+2. 直接左键运行 `autoReconnect.bat` 启动 或 **以管理员身份运行** `autoReconnect.py`即可
 
