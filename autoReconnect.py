@@ -531,7 +531,14 @@ def reset_window_pos():
 		# clsname = win32gui.GetClassName(hwnd)
 		# title = win32gui.GetWindowText(hwnd)
 		# if (title.find(targetTitle) >= 0): #调整目标窗口到坐标(600,300),大小设置为(600,600)
-	win32gui.SetWindowPos(hwnd, win32con.HWND_TOPMOST, 10,0,330,559, win32con.SWP_SHOWWINDOW)#设置窗口位置
+	#win32gui.SetWindowPos(hwnd, win32con.HWND_TOPMOST, 10,0,330,559, win32con.SWP_SHOWWINDOW)#设置窗口位置
+	pot=get_window_rect("校园客户端")
+	height=pot[3]-pot[1]
+	width=pot[2]-pot[0]
+	# print(pot)
+	# print(height ,width)
+	time.sleep(1)
+	win32gui.SetWindowPos(hwnd, win32con.HWND_TOPMOST, 10,0,width,height, win32con.SWP_SHOWWINDOW)#设置窗口位置
 	
 # reset_window_pos("校园客户端")
 
